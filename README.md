@@ -7,6 +7,7 @@ Hầu hết thành viên đặt câu hỏi trên Facebook vì nó tiện. Tuy nh
 * Người đi làm khó vào facebook hơn là github để có thể giúp đỡ bạn.
 * Facebook dễ sao nhãng công việc. 
 Tất nhiên để thay đổi thói quen không phải là chuyện dễ dàng, bạn có thể tạo câu hỏi ở đây và share link tới tất cả mọi nơi bạn muốn kể cả Facebook để có thể tìm kiếm sự giúp đỡ nhanh nhất từ cộng đồng.
+
 ## Bạn có thể hỏi gì ?
 * Tất tần tật về PHP
 * Tất tần tật về Laravel (hiện tại các framework khác chưa được hỗ trợ)
