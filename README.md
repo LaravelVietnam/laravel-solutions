@@ -10,6 +10,9 @@ Tất nhiên để thay đổi thói quen không phải là chuyện dễ dàng,
 
 ##Làm sao để bạn đặt một câu hỏi ?
 * Đơn giản là tạo một Issues mới ở repo này bằng cách [Click vào đây](https://github.com/LaravelVietnam/laravel-solutions/issues/new)
- 
+* Đừng quên nhấn vào Star và Watch ở Repo để có thể nhận thông báo mới từ repo này
+
+![](https://raw.githubusercontent.com/LaravelVietnam/laravel-solutions/master/star-and-watch-repo.png)
+
 ## Format của câu hỏi:
 //TODO
