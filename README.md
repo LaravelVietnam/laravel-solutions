@@ -32,7 +32,7 @@ Ví dụ:
 Phải theo các quy ước sau để người khác dễ hỗ trợ:
 - Nếu là lỗi, cần **copy** thông báo lỗi chính, và đoạn [Stack trace](https://en.wikipedia.org/wiki/Stack_trace);
 - Có dòng lệnh đang chạy mà bị báo lỗi;
-- Code nên đánh dấu theo [Markdown Syntax] để dễ đọc, cụ thể là dùng dấu \` bao inline code: \`code\` => `code`
+- Code nên đánh dấu theo [Markdown Syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) để dễ đọc, cụ thể là dùng dấu \` bao inline code: \`code\` => `code`
 - Với đoạn code thì dùng 3 dấu \`, ví dụ
 
 \`\`\`php
@@ -44,7 +44,9 @@ echo "Hello Laravel Vietnam";
 ?>
 
 \`\`\`
-=>
+
+sẽ cho ra
+
 ```php
 <?php
 echo "Hello Laravel Vietnam";
