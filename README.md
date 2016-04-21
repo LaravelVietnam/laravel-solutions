@@ -21,4 +21,34 @@ Tất nhiên để thay đổi thói quen không phải là chuyện dễ dàng,
 ![](https://raw.githubusercontent.com/LaravelVietnam/laravel-solutions/master/star-and-watch-repo.png)
 
 ## Format của câu hỏi:
-//TODO
+
+### Tiêu đề
+Tiêu đề có định dạng: `[Mảng] Vấn đề`
+Ví dụ:
+- `[Hosting] Kết nối bằng SSH lên Godaddy bị lỗi abc`
+- `[Package] Xử lý Header như thế nào?`
+
+### Nội dung
+Phải theo các quy ước sau để người khác dễ hỗ trợ:
+- Nếu là lỗi, cần **copy** thông báo lỗi chính, và đoạn [Stack trace](https://en.wikipedia.org/wiki/Stack_trace);
+- Có dòng lệnh đang chạy mà bị báo lỗi;
+- Code nên đánh dấu theo [Markdown Syntax] để dễ đọc, cụ thể là dùng dấu \` bao inline code: \`code\` => `code`
+- Với đoạn code thì dùng 3 dấu \`, ví dụ
+
+\`\`\`php
+
+<?php
+
+echo "Hello Laravel Vietnam";
+
+?>
+
+\`\`\`
+=>
+```php
+<?php
+echo "Hello Laravel Vietnam";
+?>
+```
+- Code indent (thụt dòng) vào bằng 4 khoảng trắng (4 space)
+- Cái gì copy được thì nên copy vào nội dung câu hỏi - thay vì chụp màn hình. Vì text thì search dễ hơn (rất nhiều) so với hình. Google với Github không index được hình đâu.
