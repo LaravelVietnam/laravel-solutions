@@ -29,10 +29,10 @@ Ví dụ:
 - `[Package] Xử lý Header như thế nào?`
 
 ### Nội dung
-Phải theo các quy ước sau để người khác dễ hỗ trợ:
-- Nếu là lỗi, cần **copy** thông báo lỗi chính, và đoạn [Stack trace](https://en.wikipedia.org/wiki/Stack_trace);
-- Có dòng lệnh đang chạy mà bị báo lỗi;
-- Code nên đánh dấu theo [Markdown Syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) để dễ đọc, cụ thể là dùng dấu \` bao inline code: \`code\` => `code`
+Nên theo các quy ước sau bạn sẽ được hỗ trợ nhanh hơn:
+- Nếu là lỗi, cần **copy** thông báo lỗi chính, và đoạn [Stack trace](https://en.wikipedia.org/wiki/Stack_trace) (nếu có);
+- Copy thêm dòng code hoặc đoạn code đang chạy mà bị báo lỗi;
+- Code nên đánh dấu theo [Markdown Syntax](https://guides.github.com/features/mastering-markdown/, "Github Mastering Markdown") để dễ đọc, cụ thể là dùng dấu \` bao inline code: \`code\` => `code`
 - Với đoạn code thì dùng 3 dấu \`, ví dụ
 
 \`\`\`php
@@ -53,4 +53,6 @@ echo "Hello Laravel Vietnam";
 ?>
 ```
 - Code indent (thụt dòng) vào bằng 4 khoảng trắng (4 space)
-- Cái gì copy được thì nên copy vào nội dung câu hỏi - thay vì chụp màn hình. Vì text thì search dễ hơn (rất nhiều) so với hình. Google với Github không index được hình đâu.
+- Trong trường hợp bạn gặp lỗi cần debug, song song với việc chụp màn hình, hãy copy cả những đoạn lỗi vào nội dung câu hỏi để những bạn khác nếu gặp lỗi này có thể dùng Google search hay Gihub search để tìm ra, tránh việc đặt câu hỏi thừa không cần thiết.
+
+
